@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>The Game</title>
+</head>
+<body>
+    <section id="health-levels">
+        <h2>Monster Health</h2>
+        <progress id="monster-health" max="100" value="100">100%</progress>
+        <h2> 
+            Player Health
+            <span id="bonus-life">1</span>
+        </h2>
+        <progress id="player-health" max="100" value="100">100%</progress>
+    </section>
+    <section id="controls">
+        <button id="attack-btn">Attack</button>
+        <button id="heavy-attack-btn">Heavy Attack</button>
+        <button id="heal-btn">Heal</button>
+        <button id="log-btn">Show Log</button>
+    </section>
+
+    <script src="js/help.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+</html>

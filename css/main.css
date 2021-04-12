@@ -1,0 +1,46 @@
+#health-levels {
+    width: 300px;
+    text-align: center;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 25%);;
+    padding: 30px;
+}
+#health-levels h2 {
+    font-size: 30px;
+    padding: 20px;
+}
+#bonus-life {
+    padding: 0 5px;
+    background-color: red;
+    border-radius: 30px;
+    color: white;
+}
+progress {
+    height: 30px;
+    width: 100%;
+    background-color: green;
+}
+#controls {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+}
+button {
+    margin: 20px 0;;
+    padding: 5px;
+    background-color: red;
+    font-size: 25px;
+    border-radius: 30px;
+} 
+button:hover {
+    background-color: pink;
+    cursor: pointer;
+}
